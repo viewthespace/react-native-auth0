@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'React-Core'
-  s.dependency 'Auth0', :git => 'https://github.com/viewthespace/Auth0.swift', :branch => 'master'
+  s.dependency 'Auth0'
   s.dependency 'JWTDecode', '3.1.0'
   s.dependency 'SimpleKeychain', '1.1.0'
 end
